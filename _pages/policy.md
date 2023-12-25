@@ -1,6 +1,6 @@
 ---
 title: "Policy Writing "
-permalink: /cv/
+permalink: /policy/
 ---
 
 ## Briefs & Technical Reports
