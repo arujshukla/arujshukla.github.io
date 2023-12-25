@@ -83,21 +83,14 @@ author:
   name             : "Aruj Shukla"
   avatar           : "aruj_shukla_13.jpg"
   bio              : " "
-  location         : " "
+  location         : 
   employer         :
-  pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  pubmed           : " "
+  googlescholar    : " "
   email            : "arujshuk@usc.edu"
   github           : "arujshukla"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : 
-  lastfm           :
-  linkedin         : "aruj-shukla"
-  stackoverflow    : 
   twitter          : "@arujshukla"
-
+  linkedin         : "aruj-shukla"
 # Reading Files
 include:
   - .htaccess
