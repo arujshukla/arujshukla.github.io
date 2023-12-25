@@ -3,12 +3,12 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "Policy Writing"
+    url: /policy/
+
   - title: "Teaching"
     url: /teaching/    
         
-  - title: "CV"
-    url: /cv/
-
   - title: "Resources"
     url: /resources/
       
