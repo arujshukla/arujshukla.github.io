@@ -8,7 +8,7 @@ across the public policy and the economics department.
 
 ## University of Southern California
 - ECON 203: Principles of Microeconomics (Fall 2023)
-    - [Syllabus](/files/pdf/teaching/ECON203-Syllabus.pdf)
+    - [Syllabus](/files/pdf/teaching/ECON203-Syllabus.pdf){:target="_blank"}
 
 ## McCourt School of Public Policy, Georgetown University
 - PPOL 533: Impact Evaluation for Development (Fall 2020)
