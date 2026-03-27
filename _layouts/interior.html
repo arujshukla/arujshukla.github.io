@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<div id="main" role="main" class="interior-main">
+  <div class="interior-page-shell{% if page.page_class %} {{ page.page_class }}{% endif %}">
+    {{ content }}
+  </div>
+</div>
