@@ -2,6 +2,15 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    var siteOrigin = "{{ site.url | default: '' }}";
+    var siteHost = "";
+
+    try {
+      siteHost = siteOrigin ? new URL(siteOrigin).hostname : "";
+    } catch (error) {
+      siteHost = "";
+    }
+
     function isAssetLink(pathname) {
       return (
         pathname.indexOf("/files/") === 0 ||
@@ -9,10 +18,18 @@
       );
     }
 
+    function isSameSite(url, href) {
+      if (/^(\/(?!\/)|\.\/|\.\.\/)/.test(href)) return true;
+      if (!/^https?:/i.test(url.protocol)) return false;
+      if (url.hostname === window.location.hostname) return true;
+      if (siteHost && url.hostname === siteHost) return true;
+      return false;
+    }
+
     document.querySelectorAll('a[href]').forEach(function (link) {
       var href = link.getAttribute("href");
       var url;
-      var isExternal;
+      var isInternal;
       var isAsset;
 
       if (!href || href.charAt(0) === "#" || href.indexOf("javascript:") === 0) return;
@@ -23,12 +40,10 @@
         return;
       }
 
-      isExternal =
-        /^(mailto:|tel:)/i.test(href) ||
-        (url.origin !== window.location.origin && /^https?:/i.test(url.protocol));
-      isAsset = url.origin === window.location.origin && isAssetLink(url.pathname);
+      isInternal = isSameSite(url, href);
+      isAsset = isInternal && isAssetLink(url.pathname);
 
-      if (isExternal || isAsset) {
+      if (/^(mailto:|tel:)/i.test(href) || (!isInternal && /^https?:/i.test(url.protocol)) || isAsset) {
         link.setAttribute("target", "_blank");
         link.setAttribute("rel", "noopener noreferrer");
       } else {
