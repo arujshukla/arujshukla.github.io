@@ -144,6 +144,19 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
+plugins:
+  - jekyll-commonmark-ghpages
+  - jekyll-default-layout
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-include-cache
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
 
 
 # Markdown Processing

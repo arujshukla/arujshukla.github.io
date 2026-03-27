@@ -368,7 +368,7 @@ hr,
 }
 
 .research-entry::before {
-  content: "▸";
+  content: "\25B8";
   position: absolute;
   left: 0;
   top: -0.02rem;
@@ -474,7 +474,7 @@ hr,
 .section-entry::before,
 .teaching-entry::before,
 .resources-entry::before {
-  content: "▸";
+  content: "\25B8";
   position: absolute;
   left: 0;
   top: -0.02rem;
