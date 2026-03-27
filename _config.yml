@@ -99,11 +99,6 @@ include:
   - files
 exclude:
   - CHANGELOG.md
-  - CONTRIBUTING.md
-  - PREVIEW_WORKFLOW.md
-  - REVAMP_SPEC.md
-  - SITE_RULES.md
-  - TODO.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

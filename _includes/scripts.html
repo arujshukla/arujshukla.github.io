@@ -2,11 +2,39 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    function isAssetLink(pathname) {
+      return (
+        pathname.indexOf("/files/") === 0 ||
+        /\.(pdf|doc|docx|xls|xlsx|ppt|pptx|zip|csv|txt|png|jpe?g|gif|webp|svg|mp3|mp4|mov)$/i.test(pathname)
+      );
+    }
+
     document.querySelectorAll('a[href]').forEach(function (link) {
       var href = link.getAttribute("href");
+      var url;
+      var isExternal;
+      var isAsset;
+
       if (!href || href.charAt(0) === "#" || href.indexOf("javascript:") === 0) return;
-      link.setAttribute("target", "_blank");
-      link.setAttribute("rel", "noopener noreferrer");
+
+      try {
+        url = new URL(href, window.location.origin);
+      } catch (error) {
+        return;
+      }
+
+      isExternal =
+        /^(mailto:|tel:)/i.test(href) ||
+        (url.origin !== window.location.origin && /^https?:/i.test(url.protocol));
+      isAsset = url.origin === window.location.origin && isAssetLink(url.pathname);
+
+      if (isExternal || isAsset) {
+        link.setAttribute("target", "_blank");
+        link.setAttribute("rel", "noopener noreferrer");
+      } else {
+        link.removeAttribute("target");
+        link.removeAttribute("rel");
+      }
     });
 
     document.querySelectorAll('.research-entry__links a[href^="#abstract-"]').forEach(function (link) {
