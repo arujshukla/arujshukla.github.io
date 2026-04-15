@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: home
-title: "Aruj Shukla"
+title: "Home"
 excerpt: "Economics PhD student"
 author_profile: false
 sidebar_disabled: true
@@ -19,6 +19,17 @@ redirect_from:
     <p>I am a 4th year PhD student in Economics at the University of Southern California studying firms, labor markets, and workforce development in low- and middle-income economies.</p>
 
     <p>In labor economics, I study how firms and workers share risks and the implications of such contracts on firm growth and labor market transitions. Within workforce development, my research examines the impacts of mobile internet on skill formation on-the-job.</p>
+
+    <div class="home-intro__details" aria-label="Contact information">
+      <p class="home-intro__details-label">Contact</p>
+      <p>
+        USC Department of Economics<br>
+        3620 South Vermont Avenue<br>
+        Kaprielian Hall<br>
+        Los Angeles, CA 90089-0253, USA<br>
+        arujshuk-at-usc-dot-edu
+      </p>
+    </div>
 
     <div class="home-intro__contact">
       <a href="mailto:arujshuk@usc.edu"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a>
