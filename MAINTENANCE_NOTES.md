@@ -9,6 +9,7 @@ The live site is intentionally lean. The active surface area is:
 - homepage/about
 - research
 - teaching
+- econ 203 evaluations
 - resources
 - cv redirect
 
@@ -136,6 +137,43 @@ If this regresses:
 
 - inspect hard-coded `target="_blank"` first
 - then inspect the same-site detection logic in `scripts.html`
+
+## Teaching / Evaluations Notes
+
+Teaching page source:
+
+- `/_pages/teaching.md`
+
+ECON 203 evaluations live on a dedicated page:
+
+- `/_pages/econ-203-evaluations.md`
+
+Structured evaluation content lives in:
+
+- `/_data/teaching_evaluations.yml`
+
+Current intended pattern:
+
+- keep the main Teaching page light
+- link `evaluations` from the ECON 203 entry to the dedicated page
+- keep evaluation summary numbers hand-curated in YAML
+- keep selected student feedback curated manually rather than auto-extracted
+
+Asset layout:
+
+- syllabi in `/files/pdf/teaching/syllabus/`
+- evaluation PDFs in `/files/pdf/teaching/evaluations/`
+
+For ECON 203:
+
+- each semester is aggregated from two section PDFs
+- the dedicated page shows archive-wide summary metrics, selected student feedback, and semester-level cards with links to both raw PDFs
+
+Rule of thumb:
+
+- if updating evaluations, edit the YAML first
+- if changing presentation, edit `/_pages/econ-203-evaluations.md` and `/_sass/_custom.scss`
+- avoid introducing a parsing pipeline unless the manual workflow becomes genuinely burdensome
 
 ## Repo Hygiene Principles
 
