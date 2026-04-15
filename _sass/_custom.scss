@@ -228,8 +228,10 @@ hr,
 .home-intro__aside {
   display: flex;
   flex: 0 0 255px;
+  flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+  gap: 0.85rem;
 }
 
 .home-intro__photo {
@@ -242,6 +244,7 @@ hr,
 .home-intro__main {
   flex: 1 1 520px;
   max-width: 700px;
+  min-height: 255px;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -259,6 +262,28 @@ hr,
   margin-top: auto;
   padding-top: 0.8rem;
   align-items: flex-end;
+}
+
+.home-intro__details {
+  width: 255px;
+  margin-top: 0;
+  padding: 0;
+  color: #4F4F4F;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+
+.home-intro__details p {
+  margin: 0;
+}
+
+.home-intro__details-label {
+  margin-bottom: 0.35rem;
+  color: #841617;
+  font-size: 1.01rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .home-intro__contact a {

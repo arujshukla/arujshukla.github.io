@@ -13,6 +13,17 @@ redirect_from:
 <div class="home-intro">
   <div class="home-intro__aside">
     <img class="home-intro__photo" src="/images/aruj_shukla_13.jpg" alt="Aruj Shukla portrait">
+    <div class="home-intro__details" aria-label="Contact information">
+      <p class="home-intro__details-label">Contact</p>
+      <p>
+        USC Department of Economics<br>
+        3620 South Vermont Avenue<br>
+        Kaprielian Hall<br>
+        Los Angeles, CA 90089-0253, USA<br>
+        <br>
+        arujshuk-at-usc-dot-edu
+      </p>
+    </div>
   </div>
 
   <div class="home-intro__main">
@@ -21,9 +32,9 @@ redirect_from:
     <p>In labor economics, I study how firms and workers share risks and the implications of such contracts on firm growth and labor market transitions. Within workforce development, my research examines the impacts of mobile internet on skill formation on-the-job.</p>
 
     <div class="home-intro__contact">
-      <a href="mailto:arujshuk@usc.edu"><i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i> Email</a>
+      <a href="mailto:arujshuk@usc.edu"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a>
       <a href="https://github.com/arujshukla"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a>
-      <a href="https://www.linkedin.com/in/aruj-shukla/"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://www.linkedin.com/in/aruj-shukla/"><i class="fab fa-fw fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
       <a href="/cv/"><i class="fas fa-fw fa-file-alt" aria-hidden="true"></i> CV</a>
       <a href="https://scholar.google.com/citations?user=_AnXPjsAAAAJ&hl=en"><i class="ai ai-google-scholar-square ai-fw" aria-hidden="true"></i> Google Scholar</a>
       <a href="https://orcid.org/0009-0006-7297-4156"><i class="ai ai-orcid-square ai-fw" aria-hidden="true"></i> ORCID</a>
