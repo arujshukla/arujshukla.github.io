@@ -1,0 +1,82 @@
+econ_203:
+  page_title: "ECON 203 Evaluations"
+  subtitle: "Evaluations aggregated across all sections of Principles of Microeconomics taught from Fall 2023 through Spring 2025."
+  summary:
+    total_audience: 170
+    total_responses: 29
+    total_response_rate: "17.06%"
+    overall_score: 3.50
+    score_scale: 4
+    instructional_practices: 3.58
+    inclusion_practices: 3.46
+    assessment_practices: 3.45
+  feedback:
+    - quote: "Helped clarify confusing topics."
+      term: "Fall 2023"
+    - quote: "Aruj was really great at explaining difficult concepts."
+      term: "Fall 2023"
+    - quote: "Thank you so much. Your discussions helped a lot."
+      term: "Spring 2024"
+    - quote: "The TA was structured, prepared, and smart."
+      term: "Spring 2024"
+    - quote: "Everything we covered in the discussion directly helped me understand concepts in lectures."
+      term: "Fall 2024"
+    - quote: "Explained concepts thoroughly and regularly asked for feedback and questions from students."
+      term: "Fall 2024"
+  semesters:
+    - term: "Spring 2025"
+      total_audience: 38
+      total_responses: 9
+      total_response_rate: "23.68%"
+      overall_score: 3.47
+      score_scale: 4
+      instructional_practices: 3.54
+      inclusion_practices: 3.50
+      assessment_practices: 3.35
+      pdfs:
+        - label: "Section 26002 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-spring-2025-section-26002.pdf"
+        - label: "Section 26004 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-spring-2025-section-26004.pdf"
+    - term: "Fall 2024"
+      total_audience: 52
+      total_responses: 8
+      total_response_rate: "15.38%"
+      overall_score: 3.32
+      score_scale: 4
+      instructional_practices: 3.41
+      inclusion_practices: 3.12
+      assessment_practices: 3.43
+      pdfs:
+        - label: "Section 26002 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-fall-2024-section-26002.pdf"
+        - label: "Section 26010 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-fall-2024-section-26010.pdf"
+    - term: "Spring 2024"
+      total_audience: 38
+      total_responses: 4
+      total_response_rate: "10.53%"
+      overall_score: 3.75
+      score_scale: 4
+      instructional_practices: 3.92
+      inclusion_practices: 3.81
+      assessment_practices: 3.50
+      pdfs:
+        - label: "Section 26002 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-spring-2024-section-26002.pdf"
+        - label: "Section 26004 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-spring-2024-section-26004.pdf"
+    - term: "Fall 2023"
+      total_audience: 42
+      total_responses: 8
+      total_response_rate: "19.05%"
+      overall_score: 3.59
+      score_scale: 4
+      instructional_practices: 3.62
+      inclusion_practices: 3.59
+      assessment_practices: 3.56
+      pdfs:
+        - label: "Section 26002 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-fall-2023-section-26002.pdf"
+        - label: "Section 26010 PDF"
+          path: "/files/pdf/teaching/evaluations/econ-203-fall-2023-section-26010.pdf"

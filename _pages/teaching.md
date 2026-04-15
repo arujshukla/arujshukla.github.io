@@ -27,19 +27,19 @@ hide_title: true
         <div class="resources-entry section-entry">
           <h3>ECON 318: Introduction to Econometrics</h3>
           <p class="resources-entry__meta section-entry__meta">Spring 2026</p>
-          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/econ-318-introduction-to-econometrics-syllabus-spring-2026.pdf" target="_blank">syllabus</a>]</p>
+          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/syllabus/econ-318-introduction-to-econometrics-syllabus-spring-2026.pdf" target="_blank">syllabus</a>]</p>
         </div>
 
         <div class="resources-entry section-entry">
           <h3>ECON 303: Intermediate Microeconomic Theory</h3>
           <p class="resources-entry__meta section-entry__meta">Fall 2025</p>
-          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/econ-303-intermediate-microeconomic-theory-syllabus-fall-2025.pdf" target="_blank">syllabus</a>]</p>
+          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/syllabus/econ-303-intermediate-microeconomic-theory-syllabus-fall-2025.pdf" target="_blank">syllabus</a>]</p>
         </div>
 
         <div class="resources-entry section-entry">
           <h3>ECON 203: Principles of Microeconomics</h3>
           <p class="resources-entry__meta section-entry__meta">Fall 2023-Spring 2025</p>
-          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/econ-203-principles-of-microeconomics-syllabus-fall-2023.pdf" target="_blank">syllabus</a>]</p>
+          <p class="resources-entry__links section-entry__links">[<a href="/files/pdf/teaching/syllabus/econ-203-principles-of-microeconomics-syllabus-fall-2023.pdf" target="_blank">syllabus</a>] [<a href="/teaching/econ-203-evaluations/" target="_blank" rel="noopener">evaluations</a>]</p>
         </div>
 
         <h2>McCourt School of Public Policy, Georgetown University</h2>
