@@ -43,6 +43,16 @@ page_class: interior-unified-page
     </div>
 
     <div class="research-entry">
+      <h3>Cash Transfers, Training, and Demand Spillovers in the Refugee Economy</h3>
+      <p class="research-entry__coauthors">with Billy Jack, Gerald Ipapa, Alex Wendo, and Andrew Zeitlin</p>
+      <p class="research-entry__links">[<a href="#abstract-refugee-economy">abstract</a>] [<a href="https://www.socialscienceregistry.org/trials/18370">AEA Registry</a>]</p>
+      <details id="abstract-refugee-economy">
+        <summary>Abstract</summary>
+        <p>We evaluate the economic and social impacts of cash transfers and complementary entrepreneurship training for refugee and host communities in urban Nairobi, Kenya. In a randomized, controlled trial that varies transfer saturation levels among hosts and refugees in Nairobi neighborhoods, we examine impacts on refugee livelihoods, on social cohesion, and on consumer, producer, and input prices, among other outcomes. Outcomes are measured in quarterly follow-up rounds. This design sheds light on the relative importance of liquidity and human capital constraints for refugees, and on the relative importance of these constraints among comparably situated host-community members. Exploiting randomized saturation, we test whether local demand constrains refugees' entrepreneurial growth, and whether refugees respond differently to demand from their own community relative to hosts residing in their neighborhoods. Results will have implications for the design of refugee livelihood programs, and will shed light on the economic incentives shaping ethnic enclaves among refugee communities.</p>
+      </details>
+    </div>
+
+    <div class="research-entry">
       <h3>Worker Turnover, Wage Contracts, and Firm Productivity in Uganda’s Manufacturing Sector</h3>
       <p class="research-entry__coauthors">with Virginia Minni and Anna Vitali</p>
       <p class="research-entry__links">[<a href="https://www.theigc.org/collections/nature-firm-revisited-documenting-relational-contracts-within-and-between-firms-uganda">IGC</a>] [<a href="https://grp.cepr.org/steg/projects/nature-firm-revisited-demand-shocks-and-informal-networks-uganda">STEG</a>] [<a href="https://www.theigc.org/publications/risk-sharing-within-firms-evidence-urban-labour-markets-uganda">policy brief</a>]</p>
