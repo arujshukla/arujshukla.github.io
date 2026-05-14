@@ -2,3 +2,4 @@ _site/
 .DS_Store
 output/
 tmp/
+scripts/update-cv.env

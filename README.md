@@ -35,3 +35,24 @@ Typical deploy flow:
 ```bash
 git push origin master
 ```
+
+## CV Update Script
+
+Create a local untracked config file at `scripts/update-cv.env` with your CV source path:
+
+```bash
+CV_SOURCE_PATH="/absolute/path/to/your/cv.pdf"
+```
+
+Then update the live CV in one step:
+
+```bash
+scripts/update-cv.sh
+```
+
+Optional flags:
+
+```bash
+scripts/update-cv.sh --source /path/to/another-cv.pdf
+scripts/update-cv.sh --no-push
+```

@@ -175,6 +175,32 @@ Rule of thumb:
 - if changing presentation, edit `/_pages/econ-203-evaluations.md` and `/_sass/_custom.scss`
 - avoid introducing a parsing pipeline unless the manual workflow becomes genuinely burdensome
 
+## CV Workflow
+
+The live CV redirect points at:
+
+- `/files/pdf/cv/aruj-shukla-cv-2026.pdf`
+
+There is a local helper script for updating it:
+
+- `/scripts/update-cv.sh`
+
+Default behavior:
+
+- reads `CV_SOURCE_PATH` from an untracked local config file at `/scripts/update-cv.env`, or from the shell environment, unless `--source` is passed
+- compares SHA256 hashes before copying
+- commits only if the PDF changed
+- pushes `master` to `origin` unless `--no-push` is passed
+
+Examples:
+
+```bash
+printf 'CV_SOURCE_PATH="/absolute/path/to/your/cv.pdf"\n' > scripts/update-cv.env
+scripts/update-cv.sh
+scripts/update-cv.sh --no-push
+scripts/update-cv.sh --source /path/to/alternate-cv.pdf
+```
+
 ## Repo Hygiene Principles
 
 This repo should stay close to the real live site.
